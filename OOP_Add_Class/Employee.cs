@@ -1,32 +1,33 @@
-﻿namespace OOP_Add_Class
+﻿namespace OOP_Add_Class 
 {
-    class Employee
+
+    public class Employee
     {
-        // Field Identification.
-        private string _FName;
-        private string _LastName;
+        private string _firstName;
+        private string _lastName;
+        private List<Employee> _employees = new List<Employee>();
+
         public string FirstName
         {
-            set { _FName = value; }
-            get { return _FName; }
+            get { return _firstName; }
+            set { _firstName = value; }
         }
 
-        public string LastName { 
-            // Expression-bodied property accessors (=>)
-            get => _LastName; 
-            set => _LastName = value; 
+        public string LastName
+        {
+            get => _lastName;
+            set => _lastName = value;
         }
 
-        // Auto-implemented property
         public int Age { get; set; }
 
+        public List<Employee> Employees => _employees;
 
         public Employee()
         {
             Console.WriteLine("Yapılandırıcı Metot Çalıştı");
         }
 
-        // Overloading.
         public Employee(string firstName, string lastName, int age)
         {
             FirstName = firstName;
@@ -34,9 +35,22 @@
             Age = age;
         }
 
-        public override string? ToString()
+        public override string ToString()
         {
             return $"{FirstName,-15} {LastName,-15} {Age,-5}";
         }
+
+        public void Add(Employee employee)
+        {
+            _employees.Add(employee);
+        }
+
+        public void AddRange(params Employee[] employees)
+        {
+            _employees.AddRange(employees);
+        }
+
+        public List<Employee> GetEmployees() => _employees;
     }
+
 }
