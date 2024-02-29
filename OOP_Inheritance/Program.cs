@@ -5,7 +5,6 @@ namespace OOP_Inheritance
     {
         static void Main(string[] args)
         {
-            
 
             Console.ReadKey();
         }

@@ -8,6 +8,17 @@ namespace OOP_Inheritance
 {
     internal class Programcs_codes
     {
+        private static void Constructor_Examples()
+        {
+            var s1 = new Rectangle(10, 20);
+            Console.WriteLine("{0} {1}", s1.X, s1.Y);
+
+            var s2 = new Circle(11, 22);
+            Console.WriteLine("{0} {1}", s2.X, s2.Y);
+
+            var s3 = new Square(6, 12);
+            Console.WriteLine("{0} {1}", s3.X, s3.Y);
+        }
         private static void Polymorphism()
         {
             var shapes = new List<Shape>()

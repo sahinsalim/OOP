@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Create_Project", "OOP_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Add_Class", "OOP_Add_Class\OOP_Add_Class.csproj", "{E2AB8510-9C66-45D3-B653-C2E480CC0583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Inheritance", "OOP_Inheritance\OOP_Inheritance.csproj", "{92F7C741-3837-4F8D-88A8-AE41AAEF4BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Inheritance", "OOP_Inheritance\OOP_Inheritance.csproj", "{92F7C741-3837-4F8D-88A8-AE41AAEF4BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,7 +8,15 @@ namespace OOP_Inheritance
 {
     public class Triangle : Shape
     {
+        public Triangle()
+        {
+            
+        }
 
+        public Triangle(int x, int y) : base(x, y)
+        {
+            
+        }
         public override void Draw()
         {
             Console.WriteLine("Triangle drawing task...");
