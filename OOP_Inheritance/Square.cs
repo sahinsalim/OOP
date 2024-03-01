@@ -1,6 +1,6 @@
 ﻿namespace OOP_Inheritance
 {
-    public class Square : Rectangle 
+    public class Square : Rectangle
     {
         public Square()
         {

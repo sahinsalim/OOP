@@ -22,7 +22,24 @@
             Console.WriteLine("Draw Method from Shape");
         }
 
-       
+        public void WorkWithDifferentObject(object o)
+        {
+            // as
+            Shape shapefromParamater = o as Shape;
+            if (shapefromParamater != null)
+            {
+                shapefromParamater.Draw();
+            }
+            Console.WriteLine("can't access to Null value.");
+
+            // is
+            //if(o is Shape)
+            //{
+
+            //}
+
+        }
+
 
     }
 }

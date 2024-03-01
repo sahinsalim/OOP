@@ -12,7 +12,7 @@
 
         }
 
-        public override void Draw()
+        public sealed override void Draw()
         {
             Console.WriteLine("Rectangle drawing task...");
         }

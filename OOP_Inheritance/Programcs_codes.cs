@@ -8,6 +8,20 @@ namespace OOP_Inheritance
 {
     internal class Programcs_codes
     {
+        private static void As_Is_operators()
+        {
+            var s1 = new Rectangle(10, 20);
+            var s2 = new Circle(25, 35);
+            s1.WorkWithDifferentObject(s2);
+        }
+        private static void SealedNotes()
+        {
+            // Sealed Notes.
+            // The xxx keyword is in a sense the last stop
+            // for this event. It cannot be inherited
+            // if used in a class, and it cannot be overridden
+            // if used in a method 
+        }
         private static void Constructor_Examples()
         {
             var s1 = new Rectangle(10, 20);
