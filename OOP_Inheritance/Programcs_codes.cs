@@ -10,6 +10,7 @@ namespace OOP_Inheritance
     {
         private static void As_Is_operators()
         {
+            //  Check WorkWithDifferentObject from Shape.cs
             var s1 = new Rectangle(10, 20);
             var s2 = new Circle(25, 35);
             s1.WorkWithDifferentObject(s2);
