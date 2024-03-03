@@ -12,7 +12,6 @@ namespace OOP_Inheritance
         {
             
         }
-
         public Circle(int x, int y) : base(x, y) 
         {
             

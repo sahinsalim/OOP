@@ -11,7 +11,6 @@
         {
             
         }
-
         new public void Calculate()
         {
             Console.WriteLine("Calculated by Square");

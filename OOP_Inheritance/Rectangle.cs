@@ -11,12 +11,10 @@
         {
 
         }
-
         public sealed override void Draw()
         {
             Console.WriteLine("Rectangle drawing task...");
         }
-
         public void Calculate()
         {
             Console.WriteLine("Calculated by Rectangle");
