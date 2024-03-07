@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Inheritance", "OOP_Inhe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Abstract_Class_Methods", "OOP_Abstract_Class_Methods\OOP_Abstract_Class_Methods.csproj", "{2A85BA6D-69A5-45D3-9FD1-061681418281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Interface", "OOP_Interface\OOP_Interface.csproj", "{DD92019D-3EC7-4A67-8A5D-D135FBAD4C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Interface", "OOP_Interface\OOP_Interface.csproj", "{DD92019D-3EC7-4A67-8A5D-D135FBAD4C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Interface_IFormattable", "OOP_Interface_IFormattable\OOP_Interface_IFormattable.csproj", "{BA720824-5FB3-4D13-93E3-09893C2C39A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{DD92019D-3EC7-4A67-8A5D-D135FBAD4C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD92019D-3EC7-4A67-8A5D-D135FBAD4C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD92019D-3EC7-4A67-8A5D-D135FBAD4C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA720824-5FB3-4D13-93E3-09893C2C39A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA720824-5FB3-4D13-93E3-09893C2C39A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA720824-5FB3-4D13-93E3-09893C2C39A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA720824-5FB3-4D13-93E3-09893C2C39A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
